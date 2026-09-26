@@ -1,0 +1,15 @@
+# 运行期产生的文件，不进仓库
+config.json
+logs/
+backup/
+state.json
+*.log
+
+# 图标预览是生成物，仓库里保留源码即可
+icon-preview/
+
+# 系统杂物
+Thumbs.db
+desktop.ini
+
+# 安装脚本与说明属于仓库内容，不忽略

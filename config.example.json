@@ -1,0 +1,42 @@
+{
+  "StartTime": "23:00",
+  "EndTime": "06:00",
+  "PatrolMinutes": 1,
+  "EnablePassword": true,
+  "RotatePassword": true,
+  "UnlockPassword": "",
+  "ImagePath": "night-lock.png",
+  "MaxLockHours": 24,
+  "EscHoldSeconds": 15,
+  "UsbUnlockFileName": "NIGHTGUARD-UNLOCK.txt",
+  "EnableKeyboardBlock": true,
+  "WaitUnlockMinutes": 0,
+  "Notify": {
+    "Enabled": false,
+    "Channel": "none",
+    "Webhook": "",
+    "Secret": "",
+    "MailFrom": "",
+    "MailAuthCode": "",
+    "MailTo": "",
+    "OnLock": true,
+    "BeforeMinutes": 5
+  },
+  "Texts": {
+    "UnlockTyping": "输入应急口令，回车确认，按 Esc 取消：",
+    "UnlockHold": "继续按住 Esc，还差 {0} 秒",
+    "UnlockWrong": "口令不对，请重新输入。",
+    "MaskChar": "",
+    "PowerOff": "关 机",
+    "Reboot": "重 启",
+    "MailSubject": "【晚安】解锁口令",
+    "StatusOnLock": "电脑已进入锁定状态",
+    "TailOnLock": "（到 {0} 自动解除）",
+    "PasswordOff": "未启用（锁屏时靠 U 盘或等待解锁）",
+    "MsgFull": "【晚安】{0}\n锁定时段：每天 {1} 到次日 {2}\n应急口令：{3}\n等待解锁：{4}\n巡查间隔：每 {5} 分钟检查一次\n{6}",
+    "InfoNight": "锁屏时段：每天 {0} 到次日 {1}",
+    "InfoForced": "本次锁定时长 {0}　·　剩余 {1}",
+    "DurationHM": "{0} 小时 {1} 分钟",
+    "DurationM": "{0} 分钟"
+  }
+}
